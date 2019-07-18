@@ -1,0 +1,161 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.MainContainer {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+  	height: 100vh;
+    display: inline-flex;
+}
+
+.SideContainer {
+	width: 25%;
+	background-color: gray;
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+
+    font-family:    Arial, Helvetica, sans-serif;
+    font-size:      17px;
+    font-weight:    bold;
+    border:2px solid gray;
+}
+
+.LocalitiesList {
+	width: 100%;
+    flex-grow : 1;
+	background-color: gray;
+  overflow-y: scroll;
+}
+.LocationItem{
+	width: 100%;	
+	height: 43px;
+	background-color: white;
+    margin-top: 0px;
+    display: inline-flex;
+    border:1px solid black;
+    color: black;
+}
+.LocationItem:hover{
+   background-color:white;
+   color: blue;
+   cursor: pointer;
+}
+
+.LocationItem_selected{
+	background-color: orange;
+	color: white;
+}
+
+
+.LocationItemLabel{
+	width:80%;	
+	height: 40px;
+	text-align: center;
+	padding-right: 10px;
+    margin-top:10px;
+    margin-left: 15px;
+}
+
+.WeatherListContainer {
+  width: 30%;
+  background-color: white;
+  height: 100%;
+
+    font-family:    Arial, Helvetica, sans-serif;
+    font-size:      15px;
+    font-weight:    bold;
+    border:1px solid black;
+}
+
+.WeatherList {
+  width: 100%;
+    flex-grow : 1;
+  background-color: gray;
+  overflow-y: scroll;
+  height: 100%;
+}
+.WeatherItem{
+  width: 100%;  
+  height: 28px;
+  background-color: white;
+    margin-top: 0px;
+    display: inline-flex;
+    border:1px solid black;
+    color: darkblue;
+
+    font-family:    Verdana;
+    font-size:      12px;
+    font-weight:    bold;
+    border:2px solid gray;
+  text-align: center;
+}
+.WeatherItem:hover{
+   background-color:white;
+   color: blue;
+   cursor: pointer;
+}
+
+.WeatherItemLabel{
+  width:80%;  
+  height: 15px;
+  text-align: center;
+  padding-right: 0px;
+    margin-top:6px;
+    margin-left: 10%;
+  /*background-color:green;*/
+
+}
+.WeatherItem_Time{
+  width: 100%;  
+  height: 17px;
+  background-color: gray;
+    margin-top: 0px;
+    display: inline-flex;
+    border:1px solid black;
+
+    font-family:    Verdana;
+    font-size:      12px;
+    font-weight:    bold;
+    border:2px solid gray;
+    text-align: center;
+
+}
+.WeatherItemLabel_Time{
+  width:70%;  
+  height: 15px;
+  text-align: center;
+  padding-right: 0px;
+    margin-top:1px;
+    margin-left: 15%;
+    color: black;
+    /*border:1px solid white;*/
+    background-color: white;
+  /*background-color:green;*/
+}
+.ErrorsListContainer {
+  width: 50%;
+  background-color: white;
+  height: 100%;
+
+    font-family:    Arial, Helvetica, sans-serif;
+    font-size:      15px;
+    font-weight:    bold;
+    border:1px solid black;
+}
+
+.BlockTitle {
+	width: 100%;
+	height: 40px;
+	background-color: lightgray;
+	text-align: center;
+	line-height: 40px;   
+    color: black;
+    border: 1px  solid black;
+}
+
+
+
